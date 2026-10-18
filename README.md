@@ -280,7 +280,7 @@ Employee Churn Analysis/
 │   └── visualization.py
 │
 ├── outputs/
-│   └── figures/
+│   └── Figures/
 │       ├── 1_City_Attrition.png
 │       ├── 2_Age_group_Attrition.png
 │       ├── 3_Education_Attrition.png

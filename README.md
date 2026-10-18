@@ -47,7 +47,7 @@ The analysis investigates the following questions:
 
 1. Which city has the highest employee departure rate?
 2. Is employee age associated with attrition?
-3. Does education level influence the departure rate?
+3. Is education level associated with differences in employee attrition rates?
 4. Is attrition related to experience in the current domain?
 5. Is there a difference in departure rates between genders?
 6. Does the employee's joining year show any particular attrition pattern?
@@ -235,20 +235,16 @@ python notebooks/visualization.py
 
 ---
 
-## 🚀 Future Improvements
 
-Possible extensions of this project include:
+## Future Improvements
 
-- Investigating the 2018 cohort anomaly in greater depth
-- Adding salary and payment-related variables
-- Studying interactions between age, experience and education
-- Adding statistical significance tests
-- Building an interactive dashboard
-- Adding SQL-based analysis
-- Building an employee attrition prediction model
-- Comparing several machine learning models
-- Deploying the final analysis as a web application
----
+- Investigate the unusually high 2018 cohort attrition rate.
+- Validate findings against additional employee-level data.
+- Examine interactions between age, experience, education, and city.
+- Apply appropriate statistical tests where their assumptions are met.
+- Build an interactive dashboard to explore attrition patterns.
+- Explore a machine learning model only after validating the data and defining a suitable prediction target.
+
 
 ## 👤 Author
 

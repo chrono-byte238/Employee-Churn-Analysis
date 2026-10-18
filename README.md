@@ -218,8 +218,8 @@ In particular:
 
 ### 1. Clone the repository
 => Bash 
-git clone <https://github.com/chrono-byte238/Employee-Churn-Analysis>
-cd "Employee-Churn-Analysis"
+git clone https://github.com/chrono-byte238/Employee-Churn-Analysis.git
+cd Employee-Churn-Analysis
 
 ### 2. Install Dependencies
 => Bash

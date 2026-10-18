@@ -11,7 +11,9 @@ The objective is to transform raw employee data into actionable insights through
 
 The analysis of 4,653 employee records highlights several important patterns:
 
-- The `2018` joining-year cohort has an exceptionally high recorded attrition rate of **98.64%**.
+- The 2018 joining-year cohort contains 367 records, of which 362 have `LeaveOrNot = 1`, corresponding to 98.64% in this dataset.
+- This unusually high proportion is an important finding that requires further investigation.
+- `JoiningYear` indicates when an employee joined, not when they left. The available data does not establish the cause of this pattern.
 - Employees with a Master's degree have the highest overall attrition rate at **48.80%**.
 - Female employees have a higher overall attrition rate (**47.15%**) than male employees (**25.77%**).
 - Employees under 25 have the highest overall attrition rate among the age groups.
@@ -73,7 +75,20 @@ Main variables used in this analysis include:
 - `0` = employee did not leave
 - `1` = employee left
 
----
+
+## Dataset Source and License
+
+- **Dataset:** [Employee Dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset)
+- **Dataset author:** Tawfik Elmetwally
+- **Platform:** Kaggle
+- **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+
+This project uses the dataset for educational and portfolio purposes.
+
+The analysis, data visualizations, and interpretations presented in this repository are my own work, based on the source dataset.
+
+Please refer to the original dataset page and its licensing information for the applicable terms.
+
 
 ## 🔍 Data Analysis
 
@@ -208,7 +223,7 @@ cd "Employee Churn Analysis"
 
 ### 2. Install Dependencies
 => Bash
-pip install pandas matplotlib
+python -m pip install -r requirements.txt
 
 ### 3. Run the analysis
 => Bash

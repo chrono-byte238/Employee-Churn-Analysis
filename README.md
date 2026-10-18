@@ -270,15 +270,13 @@ Interested in:
 ## 📁 Project Structure
 
 ```text
-Employee Churn Analysis/
-│
+
+Employee-Churn-Analysis/
 ├── data/
 │   └── Employee.csv
-│
 ├── notebooks/
 │   ├── churn_analysis.py
 │   └── visualization.py
-│
 ├── outputs/
 │   └── Figures/
 │       ├── 1_City_Attrition.png
@@ -287,6 +285,7 @@ Employee Churn Analysis/
 │       ├── 4_Experience_Attrition.png
 │       ├── 5_Gender_Attrition.png
 │       └── 6_Joining_year_Attrition.png
-│
 ├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
+
